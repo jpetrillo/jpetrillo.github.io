@@ -53,4 +53,80 @@ table {
 
 /* END RESET */
 
+ header {
+   font-family: DINPro, Helvetica, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;  
+   background-color:black;
+   padding:12px;
+   margin-bottom:30px;
+   height:94px;
+  
+ }
+
+section {
+  font-family: Adobe Caslon Pro, Georgia, serif;
+  line-height: 1.5em;
+  font-size: 14px;
+  padding: 0px 20px 12px 20px;
+  
+} 
+
+p{
+  margin-bottom:.6em;
+}
+
+footer {
+  font-family:DINPro, Helvetica, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:px;
+  font-size:14px;
+  padding: 0px 20px 12px 20px;
+  
+}
+
+header h1 {
+  font-size:30px;
+  color: white;
+  font-weight:bold;
+  text-align:center;
+  letter-spacing:5px;
+}
+
+header h2 {
+  color:white;
+  text-align:center;
+  padding: 8px 0px 8px 0px;
+  font-weight:light;
+  font-size:15px;
+  letter-spacing:3px;
+}
+
+a {
+  text-decoration:none;
+  padding:7px;
+  margin:4px;
+  float:left;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+  left:42%;
+  font-size:11px;
+  letter-spacing:2px;
+}
+
+a:hover { 
+    border:1px solid yellow;
+    color:yellow;  
+}
+
+#Headings {
+  font-family:DINPro, Helvetica, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:14px;
+  padding-bottom: 3px;
+  font-weight:bold;
+}
+
 
