@@ -55,6 +55,8 @@ table {
 
 body{
 	position:relative;
+	width:100%;
+	height:100%;
 }
  
  #side {
@@ -63,13 +65,12 @@ body{
    letter-spacing: 1px;  
    background-color:black;
    padding:15px;
-   height:100px;
-   position:absolute;
-   bottom:0px;
-   left: -40%;
-   -webkit-transform:rotate(270deg);
    width:100%;
-   
+   position:absolute;
+   top:50%;
+   left: -48%;
+   -webkit-transform:rotate(270deg);
+   text-align:center;
  }
 
 section {
@@ -78,7 +79,6 @@ section {
   font-size: 14px;
   padding: 0px 20px 12px 20px;
   clear:both;
-  
 } 
 
 p{
@@ -87,10 +87,10 @@ p{
 
 nav ul{
 	text-align:center;
-	margin:20px;
+	margin: 20px 20px 20px 10%;
 }
 
-li{
+nav li{
 	display:inline-block;
 }
 
@@ -142,13 +142,27 @@ a:hover {
   text-transform:uppercase;
   letter-spacing:1px;
   font-size:14px;
-  padding-bottom: 3px;
+  padding-bottom: 15px;
+  padding-left:20px;
   font-weight:bold;
+  -webkit-transform:rotate(270deg);
+  position:absolute;
+  left:-1%;
+  top:24%;
+}
+
+
+
+
+#Headings li{
+	float:left;
+	padding-right:50px;
 }
 
 #content{
 	width:60%;
-	margin-left:30%;
+	margin-left:10%;
 }
+
 
 
