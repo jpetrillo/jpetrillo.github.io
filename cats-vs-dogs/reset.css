@@ -49,24 +49,48 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-
-nav {
-  margin: 20px 10px 20px 10px
-}
-
 body {
   font-family: georgia;
-  padding: 20px
 }
 
-img {
-  padding: 20px 0px 20px 0px;
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:30px;
+}
+
+header{
+	position:relative;
+}
+
+nav{  
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  margin-top:30px;
+  margin-bottom:30px;
+  height:40px;
+}
+
+ul{
+	text-align: center;
+}
+
+nav li {
+  font-family: georgia;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 footer{
   font-size: 11px;
-  padding: 20px 0px 20px 0px;
+  padding: 10px;
   margin: 10px 0px 20px 0px;
+  clear:both;
+  border-top:2px black solid;
 }
 
 a{
@@ -74,24 +98,22 @@ a{
   text-decoration:none;
 }
 
-ul li {
-  float:left;
-  font-family: georgia;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 10px;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  font-weight: bold;
+article{
+  width:46.25%;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
 }
 
-article{
-  width:400px;
-  float: left;
-  margin-top: 00px;
-  margin-left: 0px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+#dog{
+	margin-left:2.5%;
+	
+}
+
+article img{
+	width:100%;
 }
 
 article h1 {

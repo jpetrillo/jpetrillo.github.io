@@ -52,36 +52,34 @@ table {
 
 section {
   font-family: Helvetica,sans-serif;
-  padding: 20px;
-  margin: 20px;
-  float:center;
+  margin: .5%;
 }
 
 article{
-  width: 490px;
+  width: 45%;
   float:left;
-  margin: 0px 30px 30px 0px;
+  margin: 2.5%;
 }
 
 img{
   float:left;
-  margin:0px 10px 10px 0px;
+  margin:0px 20px 10px 0px;
 }
 
-article h1{
+h1{
   font-size: 20px;
   font-weight: bold;
   line-height: 1.2em;
   padding-bottom: 3px;
 }
 
-article h2{
+h2{
   font-size: 11px;
   color: grey;
   padding-bottom: 20px;
 }
 
-article p {
+p {
   font-size: 13px;
   line-height: 1.4em;
   padding-bottom: .5em;
