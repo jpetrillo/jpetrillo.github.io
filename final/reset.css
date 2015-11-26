@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+body{
+	font-family:Helvetica;
+	font-size:16px;
+	font-family: "nimbus-sans";
+}
+
+h1{
+	font-size:5.625em;
+	font-weight:bold;
+	padding-bottom:.5em;
+}
+
+h2{
+	font-size:3.5em;
+	font-weight:bold;
+	padding-bottom:.3em;
+}
+
+h3{
+	font-size:1.25em;
+	padding-bottom:.25em;
+	font-weight:bold;
+	line-height:1.25em;
+}
+
+p{
+	line-height:1.4em;
+	padding-bottom:.4em;
+}
+
+#main-nav{
+	float:left;
+	list-style-type: none;
+	position:fixed;
+	padding: 1%;
+	background-color:black;
+	width:100%;
+}
+
+#nav-menu{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+nav a{
+	color:white;
+	text-decoration: none;
+	font-size:1.2em;
+	
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+ul li{
+	float:left;
+}
+
+#nav-space{
+	height:114.5px;
+	background-color:black;
+}
+
+#About{
+	background-color: #BC13FE;
+	color: cyan;
+	padding:5em;
+	overflow:hidden;
+	display:block;
+	margin-left:auto;
+}
+
+#aboutpics{
+	margin-bottom:2em;
+}
+
+#About p{
+	margin-left:40%;
+	padding-right:10%;
+}
+
+#Plan{
+	background-color: #D91E46;
+	color:#3FE77C;
+	padding:5em;
+	overflow:hidden;
+}
+
+span{
+	font-weight:bold;
+}
+
+.stepbox{
+	width:20%;
+	margin-right:13%;
+	float:left;
+	
+}
+
+.stepnumber{
+	padding-bottom:1em;
+}
+
+
+#Get-Involved{
+	background-color: #FFF134;
+	color:#002BFF;
+	padding:5em;
+	overflow:hidden;
+	clear:both;
+}
+
+#Get-Involved h2 {
+	padding-bottom:.8em;
+}
+
+#Visit{
+	float:left;
+	margin-left:11em;
+}
+
+#Events{
+	float:left;
+	width:30%;
+}
+
+#vis1{
+	float:left;
+	margin-right:2.625em;
+	width:250px;
+}
+
+#vis2{
+	float:left;
+	width:250px;
+}
+
+#MFA{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+#BSO{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+#ICA{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+#BPL{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+#ISG{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+#Coolidge{
+	height:10.6875em;
+	padding-bottom:2.125em;
+}
+
+.event{
+	padding-bottom:2em;
+	padding-top:2em;
+	border-bottom: 1px solid #002BFF;
+	clear:both;
+}
+
+#top-event{
+	padding-bottom:2em;
+	border-bottom: 1px solid #002BFF;
+}
+
+.price{
+	font-size:.625em;
+	font-weight:bold;
+	background-color:#002BFF;
+	color:#FFF134;
+	padding:1em;
+	float:left;
+	margin-right:1em;
+}
+
+.event-info{
+	padding-left:3em;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	padding:2em 2em 2em 4em;
+}
+
+footer ul li{
+	display:inline-block;
+	text-align:center;
+	font-size:.8em;
+	margin:0em 2em 0em 2em;
+}

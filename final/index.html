@@ -2,51 +2,62 @@
 <html>
 <head>
 <title> Get Inspired by Boston </title>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<script src="https://use.typekit.net/ayr1iuq.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 	<body>
 <header>
-	<nav>
-	<ul>
-		<li><a href="#Home-Anchor">Home</a> </li>
-		<li><a href="#About-Anchor">About</a> </li>
-		<li><a href="#Home-Anchor"> <img src="images/logo.png" alt="logo" id='logo'> </a> </li>
-		<li><a href="#Plan-Anchor">The Plan</a></li>
-		<li><a href="#Get-Involved-Anchor">Get Involved</a> </li>
+	<nav id="main-nav">
+	<ul id="nav-menu">
+		<li><a href="#Home-Anchor" class="smoothScroll">Home</a> </li>
+		<li><a href="#About-Anchor" class="smoothScroll">About</a> </li>
+		<li><a href="#Home-Anchor" class="smoothScroll"> <img src="images/logo.png" alt="logo" id='logo'> </a> </li>
+		<li><a href="#Plan-Anchor" class="smoothScroll">The Plan</a></li>
+		<li><a href="#Get-Involved-Anchor" class="smoothScroll">Get Involved</a> </li>
 	</ul>
 	</nav>
 </header>
+<div id="nav-space">
+</div>	
+<a id="Home-Anchor">
 <section>
-	<a id="Home-Anchor">
-<iframe src="https://player.vimeo.com/video/141847857" width="100%" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/141847857" width="100%" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </a>
 </section>
-<section>
-<div id="About">
+<section id="About">
 	<a id="About-Anchor">
 	<h1>About</h1>
-		<img src="images/AboutPic1.jpg" alt="aboutpic1" id='aboutpic1'>
-		<img src="images/AboutPic2.jpg" alt="aboutpic2" id='aboutpic2'>
-		<img src="images/AboutPic3.jpg" alt="aboutpic3" id='aboutpic3'>
-	<p>Get Inspired by Boston, Boston’s cultural planning process, draws from a theoretical framework of creative capital, developed by WolfBrown. Creative capital is based on the idea that creativity of residents and creative culture of the city are important, intangible assets, creating a culturally vibrant and inclusive community.</p>
+		<div id="aboutpics-group">
+		<img src="images/AboutPic1.jpg" alt="aboutpic1" class='aboutpic'>
+		<img src="images/AboutPic2.jpg" alt="aboutpic2" class='aboutpic'>
+		<img src="images/AboutPic3.jpg" alt="aboutpic3" class='aboutpic'>
+	</div>
+	<p>Get Inspired by Boston, Boston&#39;s cultural planning process, draws from a theoretical framework of creative capital, developed by WolfBrown. Creative capital is based on the idea that creativity of residents and creative culture of the city are important, intangible assets, creating a culturally vibrant and inclusive community.</p>
 		<p>Cities with high levels of creative capital encourage, reward and integrate imaginative thinking into all aspects of community life. We want to understand the creative capital of Boston and create a plan that will prioritize, coordinate, and align public and private resources to strengthen this creative capital over the long term.</p>
-</a>
-</div>
 </section>
-<section>
-<div id="Plan">
+</a>
+<section id="Plan">
 	<a id="Plan-Anchor">
+	
 	<h1>The Plan</h1>
-		<img src="images/Plan1.png" alt="step1" id='step1'>
+
+		<div class='stepbox'>
+		<img src="images/Plan1.png" alt="step1" class='stepnumber'>
 		<h2>Prep</h2>
-		<p> <span class="plan-date">March&ndash;May 2015</span> The Planning and Preparation phase focused on creating a multi-disciplinary team and developing an adaptive research process for Boston to ensure planning efforts meet inclusion and engagement goals.</p>
-		<img src="images/Plan2.png" alt="step2" id='step2'>
+		<p> <span class="plan-date">March&ndash;May 2015</span> The Planning and Preparation phase focused on creating a multi-disciplinary team and developing an adaptive research process for Boston to ensure planning efforts meet inclusion and engagement goals.</p>
+	</div>
+		<div class='stepbox'>
+		<img src="images/Plan2.png" alt="step2" class='stepnumber'v>
 		<h2>Draft</h2>
-		<p> <span class="plan-date">Dec 2015&ndash;Feb 2016</span> We’ll start to outline the vision, goals and priorities of Boston’s cultural plan. A successful plan needs to be actionable. In January, we'll hold a cultural summit. We will share the draft and ask for feedback. Based on what we hear, we’ll refine and rework the plan.</p>
-		<img src="images/Plan3.png" alt="step3" id='step3'>
+		<p> <span class="plan-date">Dec 2015&ndash;Feb 2016</span> We&#39;ll start to outline the vision, goals and priorities of Boston&#39;s cultural plan. A successful plan needs to be actionable. In January, we&#39;ll hold a cultural summit. We will share the draft and ask for feedback. Based on what we hear, we&#39;ll refine and rework the plan.</p>
+	</div>
+		<div class='stepbox'>
+		<img src="images/Plan3.png" alt="step3" class='stepnumber'>
 		<h2>Share</h2>
-		<p> <span class="plan-date">March&ndash;May 2016</span>The final plan will be presented to the Leadership Council, the Steering Committee and the Mayor. They will assess the plan to ensure it accurately responds to the research outcomes and results – i.e. what we learned from you. A plan will also be developed for implementation.</p>
+		<p> <span class="plan-date">March&ndash;May 2016</span> The final plan will be presented to the Leadership Council, the Steering Committee and the Mayor. They will assess the plan to ensure it accurately responds to the research outcomes and results&mdash;i.e. what we learned from you. A plan will also be developed for implementation.</p>
+	</div>
 </a>		
-</div>
 </section>
 <section>
 <div id="Get-Involved">
@@ -55,20 +66,23 @@
 		<div id="Events">
 		<h2>Events</h2>
 		
-		<div class="price">&#36;15</div> <div class="event"> <h3>Boston's Unscripted Musical Project</h3>
-			<p>Catalyst Comedy by Ministry of Theater <br>
-			Friday, November 20, 2015 at 8:00 PM (EST) <br>
-			Boston, MA</p> </div>
-			 <div class="price">&#36;35</div> <div class="event"> <h3>Boston Early Music Festival</h3>
-					<p>WGBH<br>Tuesday, November 24, 2015 from 7:00 PM to 9:00 PM (EST)<br>Boston, MA</p> </div>
-					<div class="price">Free</div> <div class="event"> <h3>Talk About Dance: Cultural &amp; Spiritual Traditions in Dance</h3>
-						<p>Dance for World Community and José Mateo Ballet Theatre<br>Tuesday, December 1, 2015 from 6:00 PM to 8:00 PM (EST)<br>Boston, MA</p> </div>
-						<div class="price">&#36;12</div> <div class="event"> <h3>
+		 <div id="top-event"> <div class="price">&#36;15</div> <div class="event-info"> <h3>Boston&#39;s Unscripted Musical Project</h3>
+			<p>Catalyst Comedy by Ministry of Theater </p>
+			<p>Friday, November 20, 2015 at 8:00 PM (EST) </p>
+			<p>Boston, MA</p> </div> </div>
+			 <div class="event"> <div class="price">&#36;35</div> <div class="event-info"> <h3>Boston Early Music Festival</h3>
+					<p>WGBH<br>Tuesday, November 24, 2015 from 7:00 PM to 9:00 PM (EST)<br>Boston, MA</p> </div> </div>
+					 <div class="event"> <div class="price">Free</div> <div class="event-info"> <h3>Talk About Dance: Cultural &amp; Spiritual Traditions in Dance</h3>
+						<p>Dance for World Community and José Mateo Ballet Theatre</p><p>Tuesday, December 1, 2015 from 6:00 PM to 8:00 PM (EST)</p><p>Boston, MA</p> </div ></div>
+						 <div class="event"> <div class="price">&#36;12</div> <div class="event-info"> <h3>
 Family Design Day &#64; BSA Space: Gingerbread Editiont</h3>
-							<p>LBD&#64;BSA Space<br>Saturday, December 12, 2015 from 10:30 AM to 12:30 PM<br>Boston, MA</p> </div>
+							<p>LBD&#64;BSA Space</p>
+							<p>Saturday, December 12, 2015 from 10:30 AM to 12:30 PM</p>
+							<p>Boston, MA</p> </div> </div>
 		</div>
 		<div id="Visit">
 			<h2>Visit</h2>
+			<div id="vis1">
 			<div id="MFA">
 			<img src="images/MFA.jpg" alt="MFA">
 			<h3>Museum of Fine Arts</h3><p>465 Huntington Ave, Boston, MA 02115</p>
@@ -83,6 +97,8 @@ Family Design Day &#64; BSA Space: Gingerbread Editiont</h3>
 			<h3>Institute of Contemporary Art</h3>
 			<p>100 Northern Ave, Boston, MA 02210</p>
 			</div>
+		</div>
+		<div id="vis2">
 			<div id="BPL">
 			<img src="images/BPL.jpg" alt="BPL">
 			<h3>Boston Public Library</h3>
@@ -99,6 +115,7 @@ Family Design Day &#64; BSA Space: Gingerbread Editiont</h3>
 			<p>290 Harvard St, Brookline, MA 02446</p>
 			</div>
 		</div>
+		</div>
 	</a>
 	</div>		
 </section>
@@ -112,4 +129,11 @@ Family Design Day &#64; BSA Space: Gingerbread Editiont</h3>
 
 
 </body>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
+
+
+
 </html>
