@@ -49,9 +49,8 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 body{
-	font-family:Helvetica;
 	font-size:16px;
-	font-family: "nimbus-sans";
+	font-family: "nimbus-sans",helvetica,arial,sans-serif;
 }
 
 h1{
