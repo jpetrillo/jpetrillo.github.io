@@ -78,7 +78,6 @@ p{
 }
 
 #main-nav{
-	float:left;
 	list-style-type: none;
 	position:fixed;
 	padding: 1%;
@@ -93,6 +92,7 @@ p{
 
 }
 
+
 nav a{
 	color:white;
 	text-decoration: none;
@@ -104,9 +104,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
-ul li{
+nav ul li{
 	float:left;
+	padding-left:2%;
+	padding-right:2%;
+	vertical-align: middle;
 }
+
+.smoothscroll{
+	vertical-align: middle;
+}
+
 
 #nav-space{
 	height:114.5px;
@@ -122,8 +130,13 @@ ul li{
 	margin-left:auto;
 }
 
-#aboutpics{
+#aboutpics-group{
 	margin-bottom:2em;
+}
+
+.aboutpic{
+	margin-right:8%;
+	width:25%;
 }
 
 #About p{
