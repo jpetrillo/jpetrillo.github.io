@@ -49,29 +49,9 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-@media screen and (max-width:550px) {
-	
-	article{
-		clear:both;;
-		max-width:100%;
-		width:80%;
-		margin:2%;
-		font-size: 1.25em;	
-	}
-	
-	#logo{
-		width:60%;
-	}
-	
-	
-}
-
-
-}
-
 body {
   font-family: georgia;
-  font-size:14px;1
+  font-size:14px;
 }
 
 @font-face {
@@ -88,27 +68,44 @@ body {
 }
 
 #logo{
+	width: 100%;
+	margin-left: auto;
+	margin-right:auto;
 	position:relative;
-	margin: 15%;
 	text-align: center;
-	clear: both;
 }
 
-.dogs { 
+#dogs { 
 	font-family: "league_gothicregular" , Arial, sans-serif;
-	font-size: 4em;
+	font-size: 6em;
 	float:left;
 }
+
+#vs-outline{
+	padding:2px;
+	border-top: 4px solid gray;
+	border-bottom: 4px solid gray;
+}
+
 
 #vs{
 	font-family: Georgia;
+	font-size: 3em;
+	padding:2px;
 	font-style: italic;
 	color: gray;
 	font-weight: bold;
-	font-size: 2em;
-	baseline-shift: -10%;
+	float:left;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+#cats { 
+	font-family: "league_gothicregular" , Arial, sans-serif;
+	font-size: 6em;
 	float:left;
 }
+
 
 header{
 	position:relative;
@@ -121,6 +118,7 @@ nav{
   margin-bottom:30px;
   height:10%;
   baseline-shift: 10px;
+  clear:both;
 }
 
 ul{
@@ -184,4 +182,18 @@ article p {
 
 #copy{
   float:right
+}
+
+@media screen and (max-width:550px) {
+	
+	article{
+		float:none;
+		width:94%;
+		margin:3%;
+		font-size: 1.25em;	
+	}
+	
+}
+
+
 }
