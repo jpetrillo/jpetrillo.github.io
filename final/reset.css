@@ -351,6 +351,11 @@ footer ul li{
 
 @media screen and (max-width: 950px){
 	
+	#nav-space{
+		height:84px;
+		background-color:black;
+	}
+	
 	nav a{
 		color:white;
 		text-decoration: none;
@@ -415,5 +420,78 @@ footer ul li{
 	.stepnumber{
 		padding-bottom:1em;
 		max-width:100%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.stepbox{
+		width:30%;
+		margin-bottom:3em;
+		margin-right:3%;
+	}
+	
+	.stepnumber{
+		padding-bottom:1em;
+		max-width:100%;
+	}
+	
+	nav a{
+		color:white;
+		text-decoration: none;
+		font-size:1em;
+		font-weight:bold;
+	
+	}
+	
+	#About p{
+		margin-left:0%;
+		padding-right:10%;
+		clear:both;
+	}
+	
+	footer{
+		font-size:.8em;
+	}
+}
+
+@media screen and (max-width: 650px){
+	
+	#nav-space{
+		height:60px;
+		background-color:black;
+	}
+	
+	.stepbox{
+		margin-left:10%;
+		width:80%;
+		margin-bottom:3em;
+		margin-right:3%;
+		float:none;
+	}
+	
+	.stepnumber{
+		padding-bottom:1em;
+		max-width:100%;
+	}
+	
+	nav a{
+		color:white;
+		text-decoration: none;
+		font-size:.8em;
+		font-weight:bold;
+	}
+	
+	body{
+		font-size:1.1em;
+	}
+	
+	#About p{
+		margin-left:0%;
+		padding-right:10%;
+		clear:both;
+	}
+	
+	footer{
+		font-size:.8em;
 	}
 }
