@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+
+@font-face {
+    font-family: 'source_code_promedium';
+    src: url('sourcecodepro-medium-webfont.eot');
+    src: url('sourcecodepro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sourcecodepro-medium-webfont.woff2') format('woff2'),
+         url('sourcecodepro-medium-webfont.woff') format('woff'),
+         url('sourcecodepro-medium-webfont.ttf') format('truetype'),
+         url('sourcecodepro-medium-webfont.svg#source_code_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moderat-bold-webfont';
+    src: 
+         url('moderat-bold-webfont.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{
+	position:relative;
+	background-image: url("images/grid.png");
+	font-size:16px;
+
+}
+
+#nav-space{
+	height: 110px;
+	width: 100%;
+}
+
+#name{
+	position: fixed;
+	top:25px;
+	left:25px;
+	width:287px;
+}
+
+nav{
+	position:fixed;
+	top:45px;
+	right:25px;
+	background-color:white;
+}
+
+nav li{
+	float:left;
+	font-family: 'moderat-bold-webfont', Helvetica-Bold, sans-serif;
+	font-size:17px;
+	padding:10px;
+}
+
+nav a{
+	color:black;
+	text-decoration:none;
+}
+
+nav a:hover{
+	border-bottom: 2.5px solid;
+	display: inline-block;
+}
+
+#left{
+	float:left;
+	width:50%;
+}
+
+#right{
+	float:right;
+	width:50%;
+}
+
+#left img{
+	width:100%;
+	margin-bottom:-5px;
+}
+
+#right img{
+	width:100%;
+	margin-bottom:-5px;
+}
+
+.gallery{
+	margin-left:15px;
+	width:810px;
+	float:left;
+}
+
+.content{
+	width:450px;
+	float:left;
+	margin-left:30px;
+	position:fixed;
+	top:110px;
+	left:855px;
+}
+
+h1 {
+	font-family:'moderat-bold-webfont', Helvetica-Bold, sans-serif;
+	font-size: 2.5em;
+	line-height:1em;
+	color:#616161;
+}
+
+h2 {
+	font-family:'source_code_promedium', monospace;
+	padding-top:.5em;
+	padding-bottom:1.3em;
+	font-size: 1em;	
+	line-height: 1em;
+	color:#616161;
+}
+
+p {
+	font-family:'source_code_promedium', monospace;
+	padding-bottom:1em;
+	font-size: .75em;	
+	line-height: 1.6em;
+	color:#616161;
+}
+
+.content a{
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+}
+
+.content a:hover{
+	text-decoration:underline;
+}
+	
+}
+
+/*
+.thumbnail {
+    opacity: 1.0;
+                  transition: opacity .55s ease-in-out;
+                  -moz-transition: opacity .55s ease-in-out;
+                  -webkit-transition: opacity .55s ease-in-out;
+}
+
+.thumbnail:hover {
+	    opacity: .83;
+	                  transition: opacity .55s ease-in-out;
+	                  -moz-transition: opacity .55s ease-in-out;
+	                  -webkit-transition: opacity .55s ease-in-out;
+	}
+
+*/
