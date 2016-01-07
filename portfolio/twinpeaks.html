@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joey Petrillo is a graphic designer</title>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div id="container">
+<div id="nav-space"></div>	
+
+<img src="images/Name.png" alt="Joey Petrillo" id="name">
+<nav>
+	<ul>
+		<li><a href="index.html">Work</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="images/resume.pdf">R&eacute;sum&eacute;</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>	
+</nav>
+
+<div class="gallery">
+	<iframe src="https://player.vimeo.com/video/150696536" width="810" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vid"></iframe>
+	<a class="fancybox" rel="group" href="images/tp1.jpg"><img src="images/tp1.jpg" alt="tp1"></a>
+	<a class="fancybox" rel="group" href="images/tp2.jpg"><img src="images/tp2.jpg" alt="tp2"></a>
+	<a class="fancybox" rel="group" href="images/tp3.jpg"><img src="images/tp3.jpg" alt="tp3"></a>
+	<iframe width="810" height="1030" src="https://invis.io/W85GXBVFG" frameborder="0" allowfullscreen class="vid"></iframe>
+	<a class="fancybox" rel="group" href="images/tp4.jpg"><img src="images/tp4.jpg" alt="tp4"></a>
+	<a class="fancybox" rel="group" href="images/tp5.jpg"><img src="images/tp5.jpg" alt="tp5"></a>
+	<a class="fancybox" rel="group" href="images/tp6.jpg"><img src="images/tp6.jpg" alt="tp6"></a>
+	
+</div>	
+
+<div class="content">
+	<h1>Welcome to Twin Peaks</h1>
+	<h2>UI/UX / Print</h2>
+	<p> Welcome to Twin Peaks is a database-based companion application for the upcoming third season of David Lynch's Twin Peaks. The app focuses on the relationships between the characters of the show in order for users to be able to check for any information on characters they may have forgotten.</p> <p>Features include summary data of relationships and characters, character quick facts and bios, video clips describing relationships, a live companion mode, the ability for users to document their own predictions, and the ability to add entries.</p><p>A 60" x 36" printed infograph summarizing all the data used for the application was also created.</p>
+	<p><a href="https://invis.io/WY5GXC1KX">Inision Prototype</a></p>
+	<p><a href="images/TwinPeaksInfograph.pdf" target="_blank">Infograph PDF</a></p>
+	<h3>Completed at Massachusetts College of Art and Design for Information Architecture I</h3>
+	
+	
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<script type="text/javascript">
+$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0
+    });
+</script>
+
+</div>
+
+</body>
+
+</html>

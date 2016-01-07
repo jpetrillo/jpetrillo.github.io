@@ -3,10 +3,13 @@
 <head>
 <title>Joey Petrillo is a graphic designer</title>
 <link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-
+<div id="container">
 <div id="nav-space"></div>	
 
 <img src="images/Name.png" alt="Joey Petrillo" id="name">
@@ -14,18 +17,18 @@
 	<ul>
 		<li><a href="index.html">Work</a></li>
 		<li><a href="about.html">About</a></li>
-		<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+		<li><a href="images/resume.pdf">R&eacute;sum&eacute;</a></li>
 		<li><a href="contact.html">Contact</a></li>
 	</ul>	
 </nav>
 
 <div class="gallery">
-	<iframe src="https://player.vimeo.com/video/141847857" width="810" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	<img src="images/ib8.jpg" alt="ib1">
-	<img src="images/ib9.jpg" alt="ib2">
-	<img src="images/ib3.jpg" alt="ib3">
-	<img src="images/ib4.jpg" alt="ib4">
-	<img src="images/ib5.jpg" alt="ib5">
+	<iframe src="https://player.vimeo.com/video/141847857" width="810" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="vid"></iframe>
+	<a class="fancybox" rel="group" href="images/ib8.jpg"><img src="images/ib8.jpg" alt="ib1"></a>
+	<a class="fancybox" rel="group" href="images/ib9.jpg"><img src="images/ib9.jpg" alt="ib2"></a>
+	<a class="fancybox" rel="group" href="images/ib3.jpg"><img src="images/ib3.jpg" alt="ib3"></a>
+	<a class="fancybox" rel="group" href="images/ib4.jpg"><img src="images/ib4.jpg" alt="ib4"></a>
+	<a class="fancybox" rel="group" href="images/ib5.jpg"><img src="images/ib5.jpg" alt="ib5"></a>
 	
 </div>	
 
@@ -33,9 +36,23 @@
 	<h1>Imagine Boston 2030</h1>
 	<h2>Advertising / Motion / UI/UX</h2>
 	<p>	Imagine Boston 2030 is an initiative that imagines the future of Boston and how it can improve as a city.</p> 
-<p>My campaign, which consists of posters, a motion piece, and a <a href="http://jpetrillo.github.io/final/"><span>hand-coded responsive website</span></a>, focuses on improving Boston's arts and culture, by creating a message of getting inspired by the city, creating custom typography based off the floor plans of Boston architecture, therefore creating new from the old. The neon candy colors and awkward typography serve to create a portrait of Boston as a more unique and creative city in order to attract a larger creative community.</p>
+<p>My campaign, which consists of posters, a motion piece, and a <a href="http://jpetrillo.github.io/final/" target="_blank"><span>hand-coded responsive website</span></a>, focuses on improving Boston's arts and culture, by creating a message of getting inspired by the city, creating custom typography based off the floor plans of Boston architecture, therefore creating new from the old. The neon candy colors and awkward typography serve to create a portrait of Boston as a more unique and creative city in order to attract a larger creative community.</p><h3>Completed at Massachusetts College of Art and Design for Graphic Design II</h3>
 	
-</div>	
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<script type="text/javascript">
+$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 0
+    });
+</script>
+
+</div>
 
 </body>
 
