@@ -76,7 +76,11 @@ table {
 
 }
 
+@media screen and (min-width: 650px) {
+    body {
 
+    }
+}
 
 body{
 	position:relative;
