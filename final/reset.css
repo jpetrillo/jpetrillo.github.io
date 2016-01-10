@@ -49,250 +49,6 @@ table {
 }
 
 /* END OF RESET - Start of Your CSS*/
-@media screen and (max-width: 1200px){
-	
-	
-	#vis1{
-		float:none;
-		margin-bottom:2.5em;
-	}
-	
-	#vis2{
-		float:none;
-	}
-	
-	#Events{
-		width:40%;
-	}
-}
-
-
-@media screen and (max-width: 950px){
-	
-	#nav-space{
-		height:84px;
-		background-color:black;
-	}
-	
-	nav a{
-		color:white;
-		text-decoration: none;
-		font-size:1.2em;
-		font-weight:bold;
-	
-	}
-	
-	.aboutpic{
-		max-width:100%;
-		width:30%;
-		margin-right:5%;
-		float:left;
-		margin-bottom:2em;
-		box-sizing:border-box;
-	}
-
-	.last-aboutpic{
-		max-width:100%;
-		width:30%;
-		float:left;
-		margin-bottom:2em;
-		box-sizing:border-box;
-	}
-	
-	#About p{
-		margin-left:35%;
-		padding-right:0;
-	}
-	
-	#Visit{
-		margin-top:3em;
-		clear:both;
-		margin-left:0;
-	}
-	
-	#vis1{
-		float:left;
-		margin-right:2.625em;
-		width:250px;
-	}
-
-	#vis2{
-		float:left;
-		width:250px;
-	}
-	
-	#Events{
-		width:80%;
-		border-sizing:border-box;
-	}
-}
-
-
-@media screen and (max-width: 950px){
-	.stepbox{
-		width:30%;
-		margin-bottom:3em;
-		margin-right:3%;
-	}
-	
-	.stepnumber{
-		padding-bottom:1em;
-		max-width:100%;
-	}
-}
-
-@media screen and (max-width: 800px){
-	.stepbox{
-		width:30%;
-		margin-bottom:3em;
-		margin-right:3%;
-	}
-	
-	.stepnumber{
-		padding-bottom:1em;
-		max-width:100%;
-	}
-	
-	nav a{
-		color:white;
-		text-decoration: none;
-		font-size:1em;
-		font-weight:bold;
-	
-	}
-	
-	#About p{
-		margin-left:0%;
-		padding-right:10%;
-		clear:both;
-	}
-	
-	footer{
-		font-size:.8em;
-	}
-}
-
-@media screen and (max-width: 700px){
-	#mobile-nav-space{
-		height:124px;
-		background-color:black;
-	}
-	
-	#main-nav{
-		display:none;
-	}
-	
-	#mobile-nav{
-		display:block;
-		background-color:black;
-	}
-	
-	#mobile-nav li{
-		float:none;
-		font-size:1.7em;
-		width:100%;
-	}
-	
-	#mobile-nav2{
-		display:block;
-		background-color:rgba(0,0,0,0.4);
-		position:fixed;
-		width:100%;
-		padding:3%;
-	}
-	
-	#mobile-nav2 .logo{
-		width:40%;
-	}
-
-	#top {
-		max-width:45%;
-		padding-top:6%;
-		margin-left:-140%;
-	}
-	
-	#mobile-nav2 ul li{
-		display:inline-block;
-		box-sizing:border-box;
-		float:left;
-		margin-left:10%;
-		margin-right:auto;
-	}
-	
-	#mobile-nav2 ul{
-		display:inline-block;
-		box-sizing:border-box;
-		margin-left:20%;
-		margin-right:20%;
-		width:100%;
-	}
-	
-	
-	#nav-space{
-		height:60px;
-		background-color:black;
-	}
-	
-	.aboutpic{
-		float:none;
-		width:85%;
-	}
-	
-	.last-aboutpic{
-		float:none;
-		width:85%;
-	}
-	
-	.stepbox{
-		margin-left:10%;
-		width:80%;
-		margin-bottom:3em;
-		margin-right:3%;
-		float:none;
-	}
-	
-	.stepnumber{
-		padding-bottom:1em;
-		max-width:100%;
-	}
-	
-	nav a{
-		color:white;
-		text-decoration: none;
-		font-size:.8em;
-		font-weight:bold;
-	}
-	
-	body{
-		font-size:1.1em;
-	}
-	
-	#About p{
-		margin-left:0%;
-		padding-right:10%;
-		clear:both;
-	}
-	
-	#About-Anchor{
-		height:110px;
-		background-color: #AFFF00;
-	}
-	
-	#Plan-Anchor{
-		height:110px;
-		background-color: #D91E46;
-	}
-	
-	
-	#Get-Involved-Anchor{
-		height:110px;
-		background-color: #FFF134;
-	}
-	
-	footer{
-		font-size:.6em;
-	}
-}
 
 body{
 	font-size:16px;
@@ -581,5 +337,250 @@ footer ul li{
 	box-sizing:border-box;
 	width:33%;
 	text-align:center;
+}
+
+@media screen and (max-width: 1200px){
+	
+	
+	#vis1{
+		float:none;
+		margin-bottom:2.5em;
+	}
+	
+	#vis2{
+		float:none;
+	}
+	
+	#Events{
+		width:40%;
+	}
+}
+
+
+@media screen and (max-width: 950px){
+	
+	#nav-space{
+		height:84px;
+		background-color:black;
+	}
+	
+	nav a{
+		color:white;
+		text-decoration: none;
+		font-size:1.2em;
+		font-weight:bold;
+	
+	}
+	
+	.aboutpic{
+		max-width:100%;
+		width:30%;
+		margin-right:5%;
+		float:left;
+		margin-bottom:2em;
+		box-sizing:border-box;
+	}
+
+	.last-aboutpic{
+		max-width:100%;
+		width:30%;
+		float:left;
+		margin-bottom:2em;
+		box-sizing:border-box;
+	}
+	
+	#About p{
+		margin-left:35%;
+		padding-right:0;
+	}
+	
+	#Visit{
+		margin-top:3em;
+		clear:both;
+		margin-left:0;
+	}
+	
+	#vis1{
+		float:left;
+		margin-right:2.625em;
+		width:250px;
+	}
+
+	#vis2{
+		float:left;
+		width:250px;
+	}
+	
+	#Events{
+		width:80%;
+		border-sizing:border-box;
+	}
+}
+
+
+@media screen and (max-width: 950px){
+	.stepbox{
+		width:30%;
+		margin-bottom:3em;
+		margin-right:3%;
+	}
+	
+	.stepnumber{
+		padding-bottom:1em;
+		max-width:100%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.stepbox{
+		width:30%;
+		margin-bottom:3em;
+		margin-right:3%;
+	}
+	
+	.stepnumber{
+		padding-bottom:1em;
+		max-width:100%;
+	}
+	
+	nav a{
+		color:white;
+		text-decoration: none;
+		font-size:1em;
+		font-weight:bold;
+	
+	}
+	
+	#About p{
+		margin-left:0%;
+		padding-right:10%;
+		clear:both;
+	}
+	
+	footer{
+		font-size:.8em;
+	}
+}
+
+@media screen and (max-width: 700px){
+	#mobile-nav-space{
+		height:124px;
+		background-color:black;
+	}
+	
+	#main-nav{
+		display:none;
+	}
+	
+	#mobile-nav{
+		display:block;
+		background-color:black;
+	}
+	
+	#mobile-nav li{
+		float:none;
+		font-size:1.7em;
+		width:100%;
+	}
+	
+	#mobile-nav2{
+		display:block;
+		background-color:rgba(0,0,0,0.4);
+		position:fixed;
+		width:100%;
+		padding:3%;
+	}
+	
+	#mobile-nav2 .logo{
+		width:40%;
+	}
+
+	#top {
+		max-width:45%;
+		padding-top:6%;
+		margin-left:-140%;
+	}
+	
+	#mobile-nav2 ul li{
+		display:inline-block;
+		box-sizing:border-box;
+		float:left;
+		margin-left:10%;
+		margin-right:auto;
+	}
+	
+	#mobile-nav2 ul{
+		display:inline-block;
+		box-sizing:border-box;
+		margin-left:20%;
+		margin-right:20%;
+		width:100%;
+	}
+	
+	
+	#nav-space{
+		height:60px;
+		background-color:black;
+	}
+	
+	.aboutpic{
+		float:none;
+		width:85%;
+	}
+	
+	.last-aboutpic{
+		float:none;
+		width:85%;
+	}
+	
+	.stepbox{
+		margin-left:10%;
+		width:80%;
+		margin-bottom:3em;
+		margin-right:3%;
+		float:none;
+	}
+	
+	.stepnumber{
+		padding-bottom:1em;
+		max-width:100%;
+	}
+	
+	nav a{
+		color:white;
+		text-decoration: none;
+		font-size:.8em;
+		font-weight:bold;
+	}
+	
+	body{
+		font-size:1.1em;
+	}
+	
+	#About p{
+		margin-left:0%;
+		padding-right:10%;
+		clear:both;
+	}
+	
+	#About-Anchor{
+		height:110px;
+		background-color: #AFFF00;
+	}
+	
+	#Plan-Anchor{
+		height:110px;
+		background-color: #D91E46;
+	}
+	
+	
+	#Get-Involved-Anchor{
+		height:110px;
+		background-color: #FFF134;
+	}
+	
+	footer{
+		font-size:.6em;
+	}
 }
 
