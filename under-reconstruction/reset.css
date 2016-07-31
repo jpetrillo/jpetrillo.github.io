@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET - Start of Your CSS*/
+
+body{
+	background-color:black;
+	width:100%;
+}
+
+.container{
+	width:1200px;
+	margin:auto;
+}
+
+.logo{
+	max-width:80%;
+	margin-top:10%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:6%;
+}
+
+h1{
+	color:white;
+	font-size:4em;
+	font-family: BrutalType-ExtraLight, helvetica, sans-serif; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align:center;
+	padding-bottom:.3em;
+}
+
+p{
+	color:white;
+	font-size:1em;
+	font-family: BrutalType-ExtraLight, helvetica, sans-serif; 
+	font-weight: normal; 
+	font-style: normal; 
+	text-align:center;
+}
+
+a{
+	color: white;
+	padding-bottom:1px;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+a:hover{
+	color: black;
+	background-color:white;
+	padding-bottom:1px;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
